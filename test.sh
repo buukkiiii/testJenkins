@@ -13,3 +13,9 @@ fi
 echo "$timestamp $content" >> "$file"
 
 echo "Content added to $file: $timestamp $content"
+
+git add -A
+
+git commit -m 'test3'
+
+git push
